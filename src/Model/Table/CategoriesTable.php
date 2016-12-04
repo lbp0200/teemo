@@ -78,6 +78,7 @@ class CategoriesTable extends Table
             ->add('rght', 'valid', ['rule' => 'numeric'])
             //    ->requirePresence('rght', 'create')
             ->notEmpty('rght');
+        return $validator;
     }
 
     /**

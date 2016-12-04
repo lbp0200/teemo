@@ -11,7 +11,7 @@ CREATE TABLE articles
 CREATE TABLE categories
 (
     id INTEGER PRIMARY KEY NOT NULL,
-    parent_id INTEGER NOT NULL,
+    parent_id INTEGER,
     lft INTEGER NOT NULL,
     rght INTEGER NOT NULL,
     name VARCHAR(100) NOT NULL,
